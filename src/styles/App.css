@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e0dbeb), to(#ddcfcf));
+  background-image: linear-gradient(to top, #e0dbeb 0%, #ddcfcf 100%);
+}
+/*# sourceMappingURL=App.css.map */

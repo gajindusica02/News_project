@@ -1,0 +1,32 @@
+$navbarColor:   rgb(201, 173, 173);
+$hoverColor: rgb(141, 120, 120);
+
+
+.navbar {
+  background: $navbarColor;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+  font-size: 1.2rem;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.navBtn{
+  background: $navbarColor;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 26px;
+  border-radius: 12px;
+
+}
+
+.navBtn:hover {
+  background-color: $hoverColor;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+

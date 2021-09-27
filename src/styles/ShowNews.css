@@ -1,0 +1,39 @@
+.article {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 20px black;
+          box-shadow: 0px 5px 20px black;
+  margin: 20px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #ddd2d2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+}
+
+.links {
+  text-decoration: none;
+  color: #312a2a;
+}
+
+.links:hover {
+  background-color: #b8a5a5;
+  border-radius: 14px;
+  padding: 20px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+#author {
+  float: right;
+}
+/*# sourceMappingURL=ShowNews.css.map */

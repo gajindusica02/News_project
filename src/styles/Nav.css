@@ -1,0 +1,36 @@
+.navbar {
+  background: #c9adad;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 10px;
+  font-size: 1.2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.navBtn {
+  background: #c9adad;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 26px;
+  border-radius: 12px;
+}
+
+.navBtn:hover {
+  background-color: #8d7878;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/*# sourceMappingURL=Nav.css.map */

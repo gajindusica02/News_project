@@ -1,0 +1,38 @@
+$backColor: rgb(221, 210, 210);
+$hoverColor: rgb(184, 165, 165);
+$borderRadius: 14px;
+
+.article{
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px black;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: $backColor;
+  align-items: center;
+  width: 400px;
+ 
+}
+
+.links{
+  text-decoration: none;
+  color: rgb(49, 42, 42);
+}
+
+.links:hover{
+  background-color: $hoverColor ;
+  border-radius: $borderRadius;
+  padding: 20px;
+  transition: all 0.2s ease-out;
+}
+
+
+#author{
+  float: right;
+}
+
+.article-image{
+
+}

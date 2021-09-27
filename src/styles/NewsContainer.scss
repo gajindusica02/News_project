@@ -1,0 +1,60 @@
+$bntColor:   rgb(201, 173, 173);
+$hoverColor: rgb(141, 120, 120);
+$borderRadius: 4px;
+
+
+.search-bar{
+  width: 30%;
+  border: none;
+  padding: 12px;
+  margin-top: 10px;
+  margin-right: 5px;
+  border-radius: $borderRadius;
+}
+.search-button{
+  background:$bntColor;
+  border: 2px solid rgb(201, 173, 173);
+  padding: 10px 10px;
+  color: white;
+  border-radius: $borderRadius;
+  font-size: 12px;
+
+}
+.search-button:hover {
+  background-color: $hoverColor ;
+  border-radius: $borderRadius;
+  transition: all 0.2s ease-out;
+}
+.fa-search{
+  font-size: 12px;
+  padding: 0px 10px;
+  
+}
+.sorting{
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  gap: 5px;
+  padding: 10px;
+}
+
+.sortingBtn{
+  background:$bntColor;
+  border: 2px solid rgb(201, 173, 173);
+  padding: 10px 10px;
+  color: white;
+  border-radius: $borderRadius;
+  font-size: 12px;
+}
+.sortingBtn:hover {
+  background-color: $hoverColor ;
+  border-radius: $borderRadius;
+  transition: all 0.2s ease-out;
+}
+.articles{
+  
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
